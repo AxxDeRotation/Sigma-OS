@@ -29,7 +29,7 @@ const bool UserlandHeader::isUpsilon() const {
 }
 
 const char * UserlandHeader::upsilonVersion() const {
-  return m_UpsilonVersion;
+  return m_SigmaOSVersion;
 }
 
 const void * UserlandHeader::storageAddress() const {

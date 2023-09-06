@@ -28,10 +28,13 @@ int ContributorsController::reusableCellCount(int type) {
   return k_totalNumberOfCell;
 }
 
-constexpr static int s_numberOfDevelopers = 18;
-constexpr static int s_numberOfUpsilonDevelopers = 5;
+constexpr static int s_numberOfDevelopers = 3;
+constexpr static int s_numberOfUpsilonDevelopers = 1;
 constexpr static I18n::Message s_developersUsernames[s_numberOfDevelopers] = {
-  I18n::Message::PLaurianFournier,
+  I18n::Message::PAxelMontlahuc,
+  I18n::Message::PAndreiTetrel,
+  I18n::Message::PDeltaSystem,
+  /*I18n::Message::PLaurianFournier,
   I18n::Message::PYannCouturier,
   I18n::Message::PDavidLuca,
   I18n::Message::PLoicE,
@@ -45,10 +48,7 @@ constexpr static I18n::Message s_developersUsernames[s_numberOfDevelopers] = {
   I18n::Message::PDamienNicolet,
   I18n::Message::PEvannDreumont,
   I18n::Message::PSzaboLevente,
-  I18n::Message::PVenceslasDuet,
-  I18n::Message::PCharlotteThomas,
-  I18n::Message::PAntoninLoubiere,
-  I18n::Message::PCyprienMejat,
+  I18n::Message::PVenceslasDuet,*/
 };
 
 void ContributorsController::willDisplayCellForIndex(HighlightCell * cell, int index) {

@@ -64,7 +64,7 @@ bool AboutController::handleEvent(Ion::Events::Event event) {
         }
         return true;
       }
-      if (childLabel == I18n::Message::UpsilonVersion) {
+      if (childLabel == I18n::Message::SigmaOSVersion) {
         MessageTableCellWithBuffer * myCell = (MessageTableCellWithBuffer *)m_selectableTableView.selectedCell();
         if (strcmp(myCell->accessoryText(), Ion::upsilonVersion()) == 0) {
           myCell->setAccessoryText(MP_STRINGIFY(OMEGA_STATE)); //Change for public/dev

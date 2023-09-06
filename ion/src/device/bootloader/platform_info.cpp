@@ -70,7 +70,7 @@ public:
 #endif
     m_omegaMagicFooter(OmegaMagic),
     m_upsilonMagicHeader(UpsilonMagic),
-    m_UpsilonVersion{UPSILON_VERSION},
+    m_SigmaOSVersion{UPSILON_VERSION},
     m_osType(OSType),
     m_upsilonMagicFooter(UpsilonMagic) { }
 
@@ -90,7 +90,7 @@ public:
     assert(m_footer == Magic);
     assert(m_omegaMagicHeader == OmegaMagic);
     assert(m_omegaMagicFooter == OmegaMagic);
-    return m_UpsilonVersion;
+    return m_SigmaOSVersion;
   }
   const volatile char * username() const volatile {
     assert(m_storageAddressRAM != nullptr);
@@ -125,7 +125,7 @@ private:
   const volatile char m_username[16];
   uint32_t m_omegaMagicFooter;
   uint32_t m_upsilonMagicHeader;
-  const char m_UpsilonVersion[16];
+  const char m_SigmaOSVersion[16];
   uint32_t m_osType;
   uint32_t m_upsilonMagicFooter;
 };

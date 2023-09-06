@@ -39,7 +39,7 @@ private:
   const volatile char m_username[16];
   uint32_t m_omegaMagicFooter;
   uint32_t m_upsilonMagicHeader;
-  const char m_UpsilonVersion[16];
+  const char m_SigmaOSVersion[16];
   uint32_t m_osType;
   uint32_t m_upsilonMagicFooter;
 };
