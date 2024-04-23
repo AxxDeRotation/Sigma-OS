@@ -63,7 +63,7 @@ public:
   constexpr static KDColor CalculationEmptyBoxNeeded = KDColor::RGB24(0x88C1D1);
   constexpr static KDColor CalculationTrigoAndComplexForeground = KDColor::RGB24(0xff000c);
   constexpr static KDColor CodeBackground = KDColor::RGB24(0x3B4353);
-  constexpr static KDColor CodeBackgroundSelected = KDColor::RGB24(0x489A95);
+  constexpr static KDColor CodeBackgroundSelected = KDColor::RGB24(0x88C1D1);
   constexpr static KDColor CodeText = KDColor::RGB24(0xffffff);
   constexpr static KDColor CodeComment = KDColor::RGB24(0x999988);
   constexpr static KDColor CodeNumber = KDColor::RGB24(0x1abc9c);
@@ -87,10 +87,10 @@ public:
   constexpr static KDColor ToolboxHeaderBorder = KDColor::RGB24(0x3b3b3b);
   constexpr static KDColor ToolboxBackground = KDColor::RGB24(0xffffff);
   constexpr static KDColor ListCellBackground = KDColor::RGB24(0x3B4353);
-  constexpr static KDColor ListCellBackgroundSelected = KDColor::RGB24(0x489A95);
+  constexpr static KDColor ListCellBackgroundSelected = KDColor::RGB24(0x88C1D1);
   constexpr static KDColor ListCellBorder = KDColor::RGB24(0x262626);
   constexpr static KDColor ButtonBackground = KDColor::RGB24(0x3B4353);
-  constexpr static KDColor ButtonBackgroundSelected = KDColor::RGB24(0x489A95);
+  constexpr static KDColor ButtonBackgroundSelected = KDColor::RGB24(0x88C1D1);
   constexpr static KDColor ButtonBackgroundSelectedHighContrast = KDColor::RGB24(0x88C1D1);
   constexpr static KDColor ButtonBorder = KDColor::RGB24(0xadadad);
   constexpr static KDColor ButtonRowBorder = KDColor::RGB24(0x262626);
@@ -98,13 +98,13 @@ public:
   constexpr static KDColor ButtonShadow = KDColor::RGB24(0x262626);
   constexpr static KDColor ButtonText = KDColor::RGB24(0xffffff);
   constexpr static KDColor TabBackground = KDColor::RGB24(0x2e2e2e);
-  constexpr static KDColor TabBackgroundSelected = KDColor::RGB24(0x489A95);
+  constexpr static KDColor TabBackgroundSelected = KDColor::RGB24(0x88C1D1);
   constexpr static KDColor TabBackgroundActive = KDColor::RGB24(0x3B4353);
   constexpr static KDColor TabBackgroundSelectedAndActive = KDColor::RGB24(0x26272e);
   constexpr static KDColor TabText = KDColor::RGB24(0xffffff);
   constexpr static KDColor TabTextActive = KDColor::RGB24(0x656975);
   constexpr static KDColor SubTabBackground = KDColor::RGB24(0x3B4353);
-  constexpr static KDColor SubTabBackgroundSelected = KDColor::RGB24(0x489A95);
+  constexpr static KDColor SubTabBackgroundSelected = KDColor::RGB24(0x88C1D1);
   constexpr static KDColor SubTabText = KDColor::RGB24(0xffffff);
   constexpr static KDColor BannerFirstBackground = KDColor::RGB24(0x656975);
   constexpr static KDColor BannerFirstBorder = KDColor::RGB24(0x656957);

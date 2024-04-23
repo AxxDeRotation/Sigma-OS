@@ -47,7 +47,7 @@
         },
         "Code": {
             "Background": "3B4353",
-            "BackgroundSelected": "489A95",
+            "BackgroundSelected": "88C1D1",
             "Text": "ffffff",
             "Comment": "999988",
             "Number": "1abc9c",
@@ -83,12 +83,12 @@
         },
         "List": {
             "CellBackground": "3B4353",
-            "CellBackgroundSelected": "489A95",
+            "CellBackgroundSelected": "88C1D1",
             "CellBorder": "262626"
         },
         "Button": {
             "Background": "3B4353",
-            "BackgroundSelected": "489A95",
+            "BackgroundSelected": "88C1D1",
             "BackgroundSelectedHighContrast": "88C1D1",
             "Border": "adadad",
             "RowBorder": "262626",
@@ -98,7 +98,7 @@
         },
         "Tab": {
             "Background": "2e2e2e",
-            "BackgroundSelected": "489A95",
+            "BackgroundSelected": "88C1D1",
             "BackgroundActive": "3B4353",
             "BackgroundSelectedAndActive": "26272e",
             "Text": "ffffff",
@@ -106,7 +106,7 @@
         },
         "SubTab": {
             "Background": "3B4353",
-            "BackgroundSelected": "489A95",
+            "BackgroundSelected": "88C1D1",
             "Text": "ffffff"
         },
         "Banner": {
