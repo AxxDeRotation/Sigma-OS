@@ -28,33 +28,22 @@ int ContributorsController::reusableCellCount(int type) {
   return k_totalNumberOfCell;
 }
 
-constexpr static int s_numberOfDevelopers = 3;
+constexpr static int s_numberOfDevelopers = 4;
+constexpr static int s_numberOfSigmaDevelopers = 2;
 constexpr static int s_numberOfUpsilonDevelopers = 1;
 constexpr static I18n::Message s_developersUsernames[s_numberOfDevelopers] = {
   I18n::Message::PAxelMontlahuc,
-  I18n::Message::PAndreiTetrel,
-  I18n::Message::PDeltaSystem,
-  /*I18n::Message::PLaurianFournier,
-  I18n::Message::PYannCouturier,
-  I18n::Message::PDavidLuca,
-  I18n::Message::PLoicE,
-  I18n::Message::PVictorKretz,
-  I18n::Message::PQuentinGuidee,
-  I18n::Message::PJoachimLeFournis,
-  I18n::Message::PMaximeFriess,
-  I18n::Message::PJeanBaptisteBoric,
-  I18n::Message::PSandraSimmons,
-  I18n::Message::PDavid,
-  I18n::Message::PDamienNicolet,
-  I18n::Message::PEvannDreumont,
-  I18n::Message::PSzaboLevente,
-  I18n::Message::PVenceslasDuet,*/
+  I18n::Message::PAndrei,
+  I18n::Message::PUpsilonTeam,
+  I18n::Message::POmegaTeam
 };
 
 void ContributorsController::willDisplayCellForIndex(HighlightCell * cell, int index) {
   MessageTableCellWithBuffer * myTextCell = (MessageTableCellWithBuffer *)cell;
   myTextCell->setAccessoryText(I18n::translate(s_developersUsernames[index]));
-  if (index < s_numberOfUpsilonDevelopers) {
+  if (index < s_numberOfSigmaDevelopers) {
+    myTextCell->setTextColor(KDColor::RGB24(0x4ac3a5));
+  } else if (index < (s_numberOfSigmaDevelopers + s_numberOfUpsilonDevelopers)) {
     myTextCell->setTextColor(KDColor::RGB24(0x5e81ac));
   } else {
     myTextCell->setTextColor(KDColor::RGB24(0xc53431));

@@ -1,2 +1,2 @@
 make clean
-make PLATFORM=simulator TARGET=$1 THEME_NAME=$2 OMEGA_USERNAME=$3
+make PLATFORM=simulator TARGET=windows THEME_NAME=$1 OMEGA_USERNAME=$2
