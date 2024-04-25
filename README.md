@@ -1,17 +1,6 @@
-<p align="center"><img src="https://github.com/Laporte12974/UpsilonDesign/blob/89a15953ae128aef8aa7d066dcaaf8d5c70f02a5/UPSILogo.png" /></p>
-
-<p align="center">
-  <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="cc by-nc-sa 4.0" src="https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-525252.svg?labelColor=292929&logo=creative%20commons&style=for-the-badge" /></a>
-  <a href="https://github.com/UpsilonNumworks/Upsilon/issues"><img alt="Issues" src="https://img.shields.io/github/issues/UpsilonNumworks/Upsilon.svg?labelColor=292929&logo=git&style=for-the-badge" /></a>
-  <br/>
-  <a href="https://discord.gg/hnEqPzAJzn"><img alt="Discord" src="https://img.shields.io/discord/663420259851567114?color=blue&labelColor=292929&label=chat%20-%20discord&logo=discord&style=for-the-badge" /></a>
-</p>
-
-> Vous ne comprenez pas l'anglais ? Vous êtes francophone ? Regardez le [*LISEZ-MOI* français](./README.fr.md) !
-
 ## About
 
-Upsilon is a fork of Omega, an user-made OS that runs on the Numworks calculator, which brings many features to it, but was discontinued because of a policy change from Numworks. Upsilon is for the people who want to see a future for user-made OSes for Numworks, even after the closure and archiving of Omega.
+Sigma is an overlay of Upsilon, an user-made OS that brings many features to Epsilon, the default OS. 
 
 ### Some new features
 
@@ -29,8 +18,7 @@ Upsilon is a fork of Omega, an user-made OS that runs on the Numworks calculator
 
 ### Installer
 
-Go to the [Upsilon website](https://getupsilon.web.app/) to the "Install" section.
-If your calculator is recognized, contains a version of Epsilon lower than 16 and your browser accepts WebUSB, the page will suggest you to install Upsilon.
+Got to the [Sigma Website](https://sigma-os.vercel.app/) to the "Install" section. There, download the Sigma binpack. Then go to the [Upsilon website](https://getupsilon.web.app/) to the "Install" section. Select the "Custom binpack" option and upload the Sigma binpack. 
 Do not disconnect your calculator until the installation is complete.
 
 ### Manual
@@ -247,9 +235,8 @@ You can now go to step 2!
 Clone repo and use 'upsilon-dev' branch by pasting these two commands:
 
 ```bash
-git clone --recursive https://github.com/UpsilonNumworks/Upsilon.git
-cd Upsilon
-git checkout upsilon-dev
+git clone --recursive https://github.com/OffensiveKernelUser/Sigma-OS
+cd Sigma-OS
 ```
 
 <br>
@@ -414,9 +401,8 @@ The simulator is now in `output/release/simulator/web/simulator.zip`
 You need devkitPro and devkitARM installed and in your path (instructions [here](https://devkitpro.org/wiki/Getting_Started))
 
 ```bash
-git clone --recursive https://github.com/UpsilonNumworks/Upsilon.git
-cd Upsilon
-git checkout --recursive upsilon-dev
+git clone --recursive https://github.com/OffensiveKernelUser/Sigma-OS
+cd Sigma-OS
 make PLATFORM=simulator TARGET=3ds -j
 ```
 
@@ -430,13 +416,13 @@ You can then put epsilon.3dsx on a SD card to run it from the HBC or use 3dslink
 
 <br>
 
-Important: Don't forget the `--recursive` tag, because Upsilon relies on submodules.
+Important: Don't forget the `--recursive` tag, because Sigma relies on submodules.
 Also, you can change the number of processes that run in parallel during the build by changing the value of the `-j` flag.
 Don't forget to put your pseudo instead of `{your pseudo, max 15 char}`. If you don't want one, just remove the `OMEGA_USERNAME=""` argument.
 
 <br>
 
-If you need help, you can join our Discord server here : <https://discord.gg/NFvzdCBTQn>
+If you need help, you can join the Omega Discord server here : <https://discord.gg/NFvzdCBTQn>
 
 <a href="https://discord.gg/NFvzdCBTQn"><p align="center"><img alt="Omega Banner Discord" src="https://user-images.githubusercontent.com/12123721/86287349-54ef5800-bbe8-11ea-80c1-34eb1f93eebd.png" /></p></a>
 
@@ -466,7 +452,7 @@ Here are the main links toward Omega's different websites and repositories, that
 
 ## About Epsilon
 
-Upsilon is a fork of Omega, after the project's discontinuation.
+Sigma is an overlay of Upsilon which is a fork of Omega, after the project's discontinuation.
 
 Omega is a fork of Epsilon, a high-performance graphing calculator operating system. It includes eight apps that cover the high school mathematics curriculum.
 
